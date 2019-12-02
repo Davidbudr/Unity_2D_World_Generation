@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1448151405914791831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8484287500789756378}
+  - component: {fileID: -7749421657990277935}
+  m_Layer: 0
+  m_Name: SpawnerSprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8484287500789756378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448151405914791831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7749421657990277935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448151405914791831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6308fb375140473418c1667c5fa73df7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapx: 10
+  mapy: 10
+  Maps:
+  - MapSprite: {fileID: 21300000, guid: 26d2f0d04676fbc4882294b77ce95fd3, type: 3}
+    PercentChance: 2
+  - MapSprite: {fileID: 21300000, guid: 643fb0a3a9058a9429edf684d3af963f, type: 3}
+    PercentChance: 10
+  - MapSprite: {fileID: 21300000, guid: 8a415dc1c9a8fd243a6a05c73eccd0f2, type: 3}
+    PercentChance: 15
+  - MapSprite: {fileID: 21300000, guid: 4f347f55f565a7b47848a27da303f876, type: 3}
+    PercentChance: 70
+  PrefabsList:
+  - BlockPrefab: {fileID: 6457029713030784107, guid: 557359ee5ba40634ea3194d6592f24ad,
+      type: 3}
+    BlockColour: {r: 1, g: 1, b: 1, a: 1}
+  - BlockPrefab: {fileID: 7437459655615958863, guid: 24c4c7b7c8bb2094c9a213c01a69c14d,
+      type: 3}
+    BlockColour: {r: 0.8745098, g: 0.44313726, b: 0.14901961, a: 1}
+  - BlockPrefab: {fileID: 632427963549948488, guid: e3e1e59a792e08f41ad43b1ccd849645,
+      type: 3}
+    BlockColour: {r: 0.6, g: 0.8980392, b: 0.3137255, a: 1}
+  - BlockPrefab: {fileID: 8805047456451052558, guid: 997a9096c93c85a4994d7cfd7669e827,
+      type: 3}
+    BlockColour: {r: 0, g: 0, b: 0, a: 0}
+  CobblePrefab: {fileID: 6457029713030784107, guid: 557359ee5ba40634ea3194d6592f24ad,
+    type: 3}
+  Boarder: {fileID: 6612163625133396629, guid: 690b703a29f14474e9c3899636e671aa, type: 3}
+  PlayerPrefab: {fileID: 2484226345921220548, guid: 947815caa99a7d14884a15d494352a31,
+    type: 3}
+  mother: {fileID: 0}
